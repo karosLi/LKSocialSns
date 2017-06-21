@@ -174,7 +174,7 @@ function checkInAndMakeTag() {
 ################ Upload function ############################
 function upload() {
 	local podspecFile=$1
-	pod repo push ${privatePods} ${podspecFile} --verbose --allow-warnings
+	pod repo push ${privatePods} ${podspecFile} --verbose --allow-warnings --use-libraries
 }
 
 ################# End upload function ############################
