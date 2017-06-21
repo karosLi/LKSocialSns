@@ -116,7 +116,7 @@
 		7C85DDD51EFAA75000C2FB0D /* LKShareMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKShareMenuView.h; sourceTree = "<group>"; };
 		7C85DDD61EFAA75000C2FB0D /* LKShareMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKShareMenuView.m; sourceTree = "<group>"; };
 		7C85DDD71EFAA75000C2FB0D /* LKShareMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKShareMenuView.xib; sourceTree = "<group>"; };
-		7C85DDF11EFAA7AC00C2FB0D /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		7C85DDF11EFAA7AC00C2FB0D /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = LKSocialSns/LKSocialSns/ThirdSDK/TencentSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
 		7C85DDF21EFAA7AC00C2FB0D /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		7C85DE021EFACE4800C2FB0D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		7C85DE041EFACE5B00C2FB0D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
@@ -160,6 +160,7 @@
 		0FCD3755796050CCE50A9A47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C85DDF11EFAA7AC00C2FB0D /* TencentOpenAPI.framework */,
 				7C85DE101EFAD2E500C2FB0D /* CoreTelephony.framework */,
 				7C85DE0E1EFAD2DC00C2FB0D /* libsqlite3.tbd */,
 				7C85DE0C1EFAD2CF00C2FB0D /* CoreGraphics.framework */,
@@ -326,7 +327,6 @@
 		7C85DDF01EFAA7AC00C2FB0D /* TencentSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7C85DDF11EFAA7AC00C2FB0D /* TencentOpenAPI.framework */,
 				7C85DDF21EFAA7AC00C2FB0D /* TencentOpenApi_IOS_Bundle.bundle */,
 			);
 			path = TencentSDK;
