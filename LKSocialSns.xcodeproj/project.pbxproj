@@ -14,6 +14,40 @@
 		7C85DD921EFAA52D00C2FB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DD911EFAA52D00C2FB0D /* Assets.xcassets */; };
 		7C85DD951EFAA52D00C2FB0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DD931EFAA52D00C2FB0D /* LaunchScreen.storyboard */; };
 		7C85DDA01EFAA52E00C2FB0D /* LKSocialSnsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DD9F1EFAA52E00C2FB0D /* LKSocialSnsTests.m */; };
+		7C85DDD91EFAA75000C2FB0D /* LKSocialSnsConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDAD1EFAA75000C2FB0D /* LKSocialSnsConstant.m */; };
+		7C85DDDA1EFAA75000C2FB0D /* LKSocialSnsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDAF1EFAA75000C2FB0D /* LKSocialSnsHelper.m */; };
+		7C85DDDB1EFAA75000C2FB0D /* LKSocialSnsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDB11EFAA75000C2FB0D /* LKSocialSnsUtil.m */; };
+		7C85DDDC1EFAA75000C2FB0D /* LKSocialSnsConfigCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDB41EFAA75000C2FB0D /* LKSocialSnsConfigCenter.m */; };
+		7C85DDDD1EFAA75000C2FB0D /* LKSocialSnsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDB61EFAA75000C2FB0D /* LKSocialSnsManager.m */; };
+		7C85DDDE1EFAA75000C2FB0D /* LKSocialSnsAccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDB91EFAA75000C2FB0D /* LKSocialSnsAccountInfo.m */; };
+		7C85DDDF1EFAA75000C2FB0D /* LKSocialSnsAuthResp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDBB1EFAA75000C2FB0D /* LKSocialSnsAuthResp.m */; };
+		7C85DDE01EFAA75000C2FB0D /* LKSocialSnsBaseResp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDBD1EFAA75000C2FB0D /* LKSocialSnsBaseResp.m */; };
+		7C85DDE11EFAA75000C2FB0D /* LKSocialSnsConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDBF1EFAA75000C2FB0D /* LKSocialSnsConfig.m */; };
+		7C85DDE21EFAA75000C2FB0D /* LKSocialSnsSendMessageResp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDC11EFAA75000C2FB0D /* LKSocialSnsSendMessageResp.m */; };
+		7C85DDE31EFAA75000C2FB0D /* LKSocialSnsPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDC41EFAA75000C2FB0D /* LKSocialSnsPlatform.m */; };
+		7C85DDE41EFAA75000C2FB0D /* LKSocialSnsPlatformQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDC61EFAA75000C2FB0D /* LKSocialSnsPlatformQQ.m */; };
+		7C85DDE51EFAA75000C2FB0D /* LKSocialSnsPlatformWechat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDC81EFAA75000C2FB0D /* LKSocialSnsPlatformWechat.m */; };
+		7C85DDE61EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDCA1EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.m */; };
+		7C85DDE71EFAA75000C2FB0D /* LK_qq_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDCD1EFAA75000C2FB0D /* LK_qq_icon@3x.png */; };
+		7C85DDE81EFAA75000C2FB0D /* LK_qzone_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDCE1EFAA75000C2FB0D /* LK_qzone_icon@3x.png */; };
+		7C85DDE91EFAA75000C2FB0D /* LK_sina_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDCF1EFAA75000C2FB0D /* LK_sina_icon@3x.png */; };
+		7C85DDEA1EFAA75000C2FB0D /* LK_wechat_session_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDD01EFAA75000C2FB0D /* LK_wechat_session_icon@3x.png */; };
+		7C85DDEB1EFAA75000C2FB0D /* LK_wechat_timeline_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDD11EFAA75000C2FB0D /* LK_wechat_timeline_icon@3x.png */; };
+		7C85DDEC1EFAA75000C2FB0D /* LKShareMenuCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDD31EFAA75000C2FB0D /* LKShareMenuCollectionCell.m */; };
+		7C85DDED1EFAA75000C2FB0D /* LKShareMenuCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDD41EFAA75000C2FB0D /* LKShareMenuCollectionCell.xib */; };
+		7C85DDEE1EFAA75000C2FB0D /* LKShareMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDD61EFAA75000C2FB0D /* LKShareMenuView.m */; };
+		7C85DDEF1EFAA75000C2FB0D /* LKShareMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDD71EFAA75000C2FB0D /* LKShareMenuView.xib */; };
+		7C85DDF81EFAA7AC00C2FB0D /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DDF11EFAA7AC00C2FB0D /* TencentOpenAPI.framework */; };
+		7C85DDF91EFAA7AC00C2FB0D /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDF21EFAA7AC00C2FB0D /* TencentOpenApi_IOS_Bundle.bundle */; };
+		7C85DE031EFACE4800C2FB0D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE021EFACE4800C2FB0D /* libc++.tbd */; };
+		7C85DE051EFACE5B00C2FB0D /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE041EFACE5B00C2FB0D /* libstdc++.tbd */; };
+		7C85DE071EFACF9F00C2FB0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE061EFACF9F00C2FB0D /* Foundation.framework */; };
+		7C85DE091EFACFA600C2FB0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE081EFACFA600C2FB0D /* UIKit.framework */; };
+		7C85DE0B1EFAD2C500C2FB0D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE0A1EFAD2C500C2FB0D /* SystemConfiguration.framework */; };
+		7C85DE0D1EFAD2CF00C2FB0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE0C1EFAD2CF00C2FB0D /* CoreGraphics.framework */; };
+		7C85DE0F1EFAD2DC00C2FB0D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE0E1EFAD2DC00C2FB0D /* libsqlite3.tbd */; };
+		7C85DE111EFAD2E500C2FB0D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE101EFAD2E500C2FB0D /* CoreTelephony.framework */; };
+		D3A2EAC6C56AFC82BE041052 /* libPods-LKSocialSns.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8049C87E948212AFD35D0 /* libPods-LKSocialSns.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EE18C27126CB4B770C943B7 /* Pods-LKSocialSns.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKSocialSns.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKSocialSns/Pods-LKSocialSns.release.xcconfig"; sourceTree = "<group>"; };
+		36B34BA3E4A1D09F38AC8FC9 /* Pods-LKSocialSns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKSocialSns.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKSocialSns/Pods-LKSocialSns.debug.xcconfig"; sourceTree = "<group>"; };
 		7C85DD821EFAA52D00C2FB0D /* LKSocialSns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKSocialSns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C85DD861EFAA52D00C2FB0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C85DD881EFAA52D00C2FB0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +76,57 @@
 		7C85DD9B1EFAA52E00C2FB0D /* LKSocialSnsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKSocialSnsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C85DD9F1EFAA52E00C2FB0D /* LKSocialSnsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsTests.m; sourceTree = "<group>"; };
 		7C85DDA11EFAA52E00C2FB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C85DDAC1EFAA75000C2FB0D /* LKSocialSnsConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsConstant.h; sourceTree = "<group>"; };
+		7C85DDAD1EFAA75000C2FB0D /* LKSocialSnsConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsConstant.m; sourceTree = "<group>"; };
+		7C85DDAE1EFAA75000C2FB0D /* LKSocialSnsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsHelper.h; sourceTree = "<group>"; };
+		7C85DDAF1EFAA75000C2FB0D /* LKSocialSnsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsHelper.m; sourceTree = "<group>"; };
+		7C85DDB01EFAA75000C2FB0D /* LKSocialSnsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsUtil.h; sourceTree = "<group>"; };
+		7C85DDB11EFAA75000C2FB0D /* LKSocialSnsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsUtil.m; sourceTree = "<group>"; };
+		7C85DDB21EFAA75000C2FB0D /* LKSocialSns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSns.h; sourceTree = "<group>"; };
+		7C85DDB31EFAA75000C2FB0D /* LKSocialSnsConfigCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsConfigCenter.h; sourceTree = "<group>"; };
+		7C85DDB41EFAA75000C2FB0D /* LKSocialSnsConfigCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsConfigCenter.m; sourceTree = "<group>"; };
+		7C85DDB51EFAA75000C2FB0D /* LKSocialSnsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsManager.h; sourceTree = "<group>"; };
+		7C85DDB61EFAA75000C2FB0D /* LKSocialSnsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsManager.m; sourceTree = "<group>"; };
+		7C85DDB81EFAA75000C2FB0D /* LKSocialSnsAccountInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsAccountInfo.h; sourceTree = "<group>"; };
+		7C85DDB91EFAA75000C2FB0D /* LKSocialSnsAccountInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsAccountInfo.m; sourceTree = "<group>"; };
+		7C85DDBA1EFAA75000C2FB0D /* LKSocialSnsAuthResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsAuthResp.h; sourceTree = "<group>"; };
+		7C85DDBB1EFAA75000C2FB0D /* LKSocialSnsAuthResp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsAuthResp.m; sourceTree = "<group>"; };
+		7C85DDBC1EFAA75000C2FB0D /* LKSocialSnsBaseResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsBaseResp.h; sourceTree = "<group>"; };
+		7C85DDBD1EFAA75000C2FB0D /* LKSocialSnsBaseResp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsBaseResp.m; sourceTree = "<group>"; };
+		7C85DDBE1EFAA75000C2FB0D /* LKSocialSnsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsConfig.h; sourceTree = "<group>"; };
+		7C85DDBF1EFAA75000C2FB0D /* LKSocialSnsConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsConfig.m; sourceTree = "<group>"; };
+		7C85DDC01EFAA75000C2FB0D /* LKSocialSnsSendMessageResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsSendMessageResp.h; sourceTree = "<group>"; };
+		7C85DDC11EFAA75000C2FB0D /* LKSocialSnsSendMessageResp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsSendMessageResp.m; sourceTree = "<group>"; };
+		7C85DDC31EFAA75000C2FB0D /* LKSocialSnsPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsPlatform.h; sourceTree = "<group>"; };
+		7C85DDC41EFAA75000C2FB0D /* LKSocialSnsPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsPlatform.m; sourceTree = "<group>"; };
+		7C85DDC51EFAA75000C2FB0D /* LKSocialSnsPlatformQQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsPlatformQQ.h; sourceTree = "<group>"; };
+		7C85DDC61EFAA75000C2FB0D /* LKSocialSnsPlatformQQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsPlatformQQ.m; sourceTree = "<group>"; };
+		7C85DDC71EFAA75000C2FB0D /* LKSocialSnsPlatformWechat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsPlatformWechat.h; sourceTree = "<group>"; };
+		7C85DDC81EFAA75000C2FB0D /* LKSocialSnsPlatformWechat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsPlatformWechat.m; sourceTree = "<group>"; };
+		7C85DDC91EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsPlatformWeibo.h; sourceTree = "<group>"; };
+		7C85DDCA1EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsPlatformWeibo.m; sourceTree = "<group>"; };
+		7C85DDCD1EFAA75000C2FB0D /* LK_qq_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LK_qq_icon@3x.png"; sourceTree = "<group>"; };
+		7C85DDCE1EFAA75000C2FB0D /* LK_qzone_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LK_qzone_icon@3x.png"; sourceTree = "<group>"; };
+		7C85DDCF1EFAA75000C2FB0D /* LK_sina_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LK_sina_icon@3x.png"; sourceTree = "<group>"; };
+		7C85DDD01EFAA75000C2FB0D /* LK_wechat_session_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LK_wechat_session_icon@3x.png"; sourceTree = "<group>"; };
+		7C85DDD11EFAA75000C2FB0D /* LK_wechat_timeline_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LK_wechat_timeline_icon@3x.png"; sourceTree = "<group>"; };
+		7C85DDD21EFAA75000C2FB0D /* LKShareMenuCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKShareMenuCollectionCell.h; sourceTree = "<group>"; };
+		7C85DDD31EFAA75000C2FB0D /* LKShareMenuCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKShareMenuCollectionCell.m; sourceTree = "<group>"; };
+		7C85DDD41EFAA75000C2FB0D /* LKShareMenuCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKShareMenuCollectionCell.xib; sourceTree = "<group>"; };
+		7C85DDD51EFAA75000C2FB0D /* LKShareMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKShareMenuView.h; sourceTree = "<group>"; };
+		7C85DDD61EFAA75000C2FB0D /* LKShareMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKShareMenuView.m; sourceTree = "<group>"; };
+		7C85DDD71EFAA75000C2FB0D /* LKShareMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKShareMenuView.xib; sourceTree = "<group>"; };
+		7C85DDF11EFAA7AC00C2FB0D /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		7C85DDF21EFAA7AC00C2FB0D /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		7C85DE021EFACE4800C2FB0D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7C85DE041EFACE5B00C2FB0D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		7C85DE061EFACF9F00C2FB0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C85DE081EFACFA600C2FB0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C85DE0A1EFAD2C500C2FB0D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7C85DE0C1EFAD2CF00C2FB0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C85DE0E1EFAD2DC00C2FB0D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7C85DE101EFAD2E500C2FB0D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FCC8049C87E948212AFD35D0 /* libPods-LKSocialSns.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKSocialSns.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +134,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C85DE111EFAD2E500C2FB0D /* CoreTelephony.framework in Frameworks */,
+				7C85DE0F1EFAD2DC00C2FB0D /* libsqlite3.tbd in Frameworks */,
+				7C85DE0D1EFAD2CF00C2FB0D /* CoreGraphics.framework in Frameworks */,
+				7C85DE0B1EFAD2C500C2FB0D /* SystemConfiguration.framework in Frameworks */,
+				7C85DE091EFACFA600C2FB0D /* UIKit.framework in Frameworks */,
+				7C85DE071EFACF9F00C2FB0D /* Foundation.framework in Frameworks */,
+				7C85DE051EFACE5B00C2FB0D /* libstdc++.tbd in Frameworks */,
+				7C85DE031EFACE4800C2FB0D /* libc++.tbd in Frameworks */,
+				D3A2EAC6C56AFC82BE041052 /* libPods-LKSocialSns.a in Frameworks */,
+				7C85DDF81EFAA7AC00C2FB0D /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +157,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FCD3755796050CCE50A9A47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C85DE101EFAD2E500C2FB0D /* CoreTelephony.framework */,
+				7C85DE0E1EFAD2DC00C2FB0D /* libsqlite3.tbd */,
+				7C85DE0C1EFAD2CF00C2FB0D /* CoreGraphics.framework */,
+				7C85DE0A1EFAD2C500C2FB0D /* SystemConfiguration.framework */,
+				7C85DE081EFACFA600C2FB0D /* UIKit.framework */,
+				7C85DE061EFACF9F00C2FB0D /* Foundation.framework */,
+				7C85DE041EFACE5B00C2FB0D /* libstdc++.tbd */,
+				7C85DE021EFACE4800C2FB0D /* libc++.tbd */,
+				FCC8049C87E948212AFD35D0 /* libPods-LKSocialSns.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C85DD791EFAA52D00C2FB0D = {
 			isa = PBXGroup;
 			children = (
 				7C85DD841EFAA52D00C2FB0D /* LKSocialSns */,
 				7C85DD9E1EFAA52E00C2FB0D /* LKSocialSnsTests */,
 				7C85DD831EFAA52D00C2FB0D /* Products */,
+				F3A61E0981558F3922539BD7 /* Pods */,
+				0FCD3755796050CCE50A9A47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +196,7 @@
 		7C85DD841EFAA52D00C2FB0D /* LKSocialSns */ = {
 			isa = PBXGroup;
 			children = (
+				7C85DDAA1EFAA66300C2FB0D /* LKSocialSns */,
 				7C85DD881EFAA52D00C2FB0D /* AppDelegate.h */,
 				7C85DD891EFAA52D00C2FB0D /* AppDelegate.m */,
 				7C85DD8B1EFAA52D00C2FB0D /* ViewController.h */,
@@ -111,6 +227,120 @@
 			path = LKSocialSnsTests;
 			sourceTree = "<group>";
 		};
+		7C85DDAA1EFAA66300C2FB0D /* LKSocialSns */ = {
+			isa = PBXGroup;
+			children = (
+				7C85DDB21EFAA75000C2FB0D /* LKSocialSns.h */,
+				7C85DDB31EFAA75000C2FB0D /* LKSocialSnsConfigCenter.h */,
+				7C85DDB41EFAA75000C2FB0D /* LKSocialSnsConfigCenter.m */,
+				7C85DDB51EFAA75000C2FB0D /* LKSocialSnsManager.h */,
+				7C85DDB61EFAA75000C2FB0D /* LKSocialSnsManager.m */,
+				7C85DDAB1EFAA75000C2FB0D /* Helper */,
+				7C85DDB71EFAA75000C2FB0D /* Model */,
+				7C85DDC21EFAA75000C2FB0D /* Platform */,
+				7C85DDCB1EFAA75000C2FB0D /* ShareMenu */,
+				7C85DDD81EFAA75000C2FB0D /* ThirdSDK */,
+			);
+			path = LKSocialSns;
+			sourceTree = "<group>";
+		};
+		7C85DDAB1EFAA75000C2FB0D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7C85DDAC1EFAA75000C2FB0D /* LKSocialSnsConstant.h */,
+				7C85DDAD1EFAA75000C2FB0D /* LKSocialSnsConstant.m */,
+				7C85DDAE1EFAA75000C2FB0D /* LKSocialSnsHelper.h */,
+				7C85DDAF1EFAA75000C2FB0D /* LKSocialSnsHelper.m */,
+				7C85DDB01EFAA75000C2FB0D /* LKSocialSnsUtil.h */,
+				7C85DDB11EFAA75000C2FB0D /* LKSocialSnsUtil.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7C85DDB71EFAA75000C2FB0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7C85DDB81EFAA75000C2FB0D /* LKSocialSnsAccountInfo.h */,
+				7C85DDB91EFAA75000C2FB0D /* LKSocialSnsAccountInfo.m */,
+				7C85DDBA1EFAA75000C2FB0D /* LKSocialSnsAuthResp.h */,
+				7C85DDBB1EFAA75000C2FB0D /* LKSocialSnsAuthResp.m */,
+				7C85DDBC1EFAA75000C2FB0D /* LKSocialSnsBaseResp.h */,
+				7C85DDBD1EFAA75000C2FB0D /* LKSocialSnsBaseResp.m */,
+				7C85DDBE1EFAA75000C2FB0D /* LKSocialSnsConfig.h */,
+				7C85DDBF1EFAA75000C2FB0D /* LKSocialSnsConfig.m */,
+				7C85DDC01EFAA75000C2FB0D /* LKSocialSnsSendMessageResp.h */,
+				7C85DDC11EFAA75000C2FB0D /* LKSocialSnsSendMessageResp.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C85DDC21EFAA75000C2FB0D /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				7C85DDC31EFAA75000C2FB0D /* LKSocialSnsPlatform.h */,
+				7C85DDC41EFAA75000C2FB0D /* LKSocialSnsPlatform.m */,
+				7C85DDC51EFAA75000C2FB0D /* LKSocialSnsPlatformQQ.h */,
+				7C85DDC61EFAA75000C2FB0D /* LKSocialSnsPlatformQQ.m */,
+				7C85DDC71EFAA75000C2FB0D /* LKSocialSnsPlatformWechat.h */,
+				7C85DDC81EFAA75000C2FB0D /* LKSocialSnsPlatformWechat.m */,
+				7C85DDC91EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.h */,
+				7C85DDCA1EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.m */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		7C85DDCB1EFAA75000C2FB0D /* ShareMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7C85DDCC1EFAA75000C2FB0D /* image */,
+				7C85DDD21EFAA75000C2FB0D /* LKShareMenuCollectionCell.h */,
+				7C85DDD31EFAA75000C2FB0D /* LKShareMenuCollectionCell.m */,
+				7C85DDD41EFAA75000C2FB0D /* LKShareMenuCollectionCell.xib */,
+				7C85DDD51EFAA75000C2FB0D /* LKShareMenuView.h */,
+				7C85DDD61EFAA75000C2FB0D /* LKShareMenuView.m */,
+				7C85DDD71EFAA75000C2FB0D /* LKShareMenuView.xib */,
+			);
+			path = ShareMenu;
+			sourceTree = "<group>";
+		};
+		7C85DDCC1EFAA75000C2FB0D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7C85DDCD1EFAA75000C2FB0D /* LK_qq_icon@3x.png */,
+				7C85DDCE1EFAA75000C2FB0D /* LK_qzone_icon@3x.png */,
+				7C85DDCF1EFAA75000C2FB0D /* LK_sina_icon@3x.png */,
+				7C85DDD01EFAA75000C2FB0D /* LK_wechat_session_icon@3x.png */,
+				7C85DDD11EFAA75000C2FB0D /* LK_wechat_timeline_icon@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		7C85DDD81EFAA75000C2FB0D /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7C85DDF01EFAA7AC00C2FB0D /* TencentSDK */,
+			);
+			path = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		7C85DDF01EFAA7AC00C2FB0D /* TencentSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7C85DDF11EFAA7AC00C2FB0D /* TencentOpenAPI.framework */,
+				7C85DDF21EFAA7AC00C2FB0D /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = TencentSDK;
+			sourceTree = "<group>";
+		};
+		F3A61E0981558F3922539BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36B34BA3E4A1D09F38AC8FC9 /* Pods-LKSocialSns.debug.xcconfig */,
+				2EE18C27126CB4B770C943B7 /* Pods-LKSocialSns.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +348,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C85DDA41EFAA52E00C2FB0D /* Build configuration list for PBXNativeTarget "LKSocialSns" */;
 			buildPhases = (
+				2C7498D4AEFD183CA8D260AE /* [CP] Check Pods Manifest.lock */,
 				7C85DD7E1EFAA52D00C2FB0D /* Sources */,
 				7C85DD7F1EFAA52D00C2FB0D /* Frameworks */,
 				7C85DD801EFAA52D00C2FB0D /* Resources */,
+				65AF1F01BEADC62B933BA089 /* [CP] Embed Pods Frameworks */,
+				AF7ED5DD5B2401E1F0D9EFAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +428,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C85DDEA1EFAA75000C2FB0D /* LK_wechat_session_icon@3x.png in Resources */,
 				7C85DD951EFAA52D00C2FB0D /* LaunchScreen.storyboard in Resources */,
+				7C85DDED1EFAA75000C2FB0D /* LKShareMenuCollectionCell.xib in Resources */,
 				7C85DD921EFAA52D00C2FB0D /* Assets.xcassets in Resources */,
 				7C85DD901EFAA52D00C2FB0D /* Main.storyboard in Resources */,
+				7C85DDEB1EFAA75000C2FB0D /* LK_wechat_timeline_icon@3x.png in Resources */,
+				7C85DDEF1EFAA75000C2FB0D /* LKShareMenuView.xib in Resources */,
+				7C85DDF91EFAA7AC00C2FB0D /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				7C85DDE71EFAA75000C2FB0D /* LK_qq_icon@3x.png in Resources */,
+				7C85DDE91EFAA75000C2FB0D /* LK_sina_icon@3x.png in Resources */,
+				7C85DDE81EFAA75000C2FB0D /* LK_qzone_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +451,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C7498D4AEFD183CA8D260AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65AF1F01BEADC62B933BA089 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKSocialSns/Pods-LKSocialSns-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7ED5DD5B2401E1F0D9EFAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKSocialSns/Pods-LKSocialSns-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C85DD7E1EFAA52D00C2FB0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C85DDDD1EFAA75000C2FB0D /* LKSocialSnsManager.m in Sources */,
+				7C85DDE31EFAA75000C2FB0D /* LKSocialSnsPlatform.m in Sources */,
+				7C85DDDC1EFAA75000C2FB0D /* LKSocialSnsConfigCenter.m in Sources */,
+				7C85DDEC1EFAA75000C2FB0D /* LKShareMenuCollectionCell.m in Sources */,
+				7C85DDE41EFAA75000C2FB0D /* LKSocialSnsPlatformQQ.m in Sources */,
+				7C85DDE01EFAA75000C2FB0D /* LKSocialSnsBaseResp.m in Sources */,
+				7C85DDDA1EFAA75000C2FB0D /* LKSocialSnsHelper.m in Sources */,
+				7C85DDD91EFAA75000C2FB0D /* LKSocialSnsConstant.m in Sources */,
+				7C85DDDB1EFAA75000C2FB0D /* LKSocialSnsUtil.m in Sources */,
+				7C85DDE11EFAA75000C2FB0D /* LKSocialSnsConfig.m in Sources */,
+				7C85DDE21EFAA75000C2FB0D /* LKSocialSnsSendMessageResp.m in Sources */,
 				7C85DD8D1EFAA52D00C2FB0D /* ViewController.m in Sources */,
+				7C85DDDF1EFAA75000C2FB0D /* LKSocialSnsAuthResp.m in Sources */,
 				7C85DD8A1EFAA52D00C2FB0D /* AppDelegate.m in Sources */,
+				7C85DDE51EFAA75000C2FB0D /* LKSocialSnsPlatformWechat.m in Sources */,
+				7C85DDE61EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.m in Sources */,
+				7C85DDEE1EFAA75000C2FB0D /* LKShareMenuView.m in Sources */,
 				7C85DD871EFAA52D00C2FB0D /* main.m in Sources */,
+				7C85DDDE1EFAA75000C2FB0D /* LKSocialSnsAccountInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,11 +658,21 @@
 		};
 		7C85DDA51EFAA52E00C2FB0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B34BA3E4A1D09F38AC8FC9 /* Pods-LKSocialSns.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3P75287S54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LKSocialSns/LKSocialSns/ThirdSDK/TencentSDK",
+					"$(PROJECT_DIR)/LKSocialSns/LKSocialSns/ThirdSDK/WeChatSDK",
+				);
 				INFOPLIST_FILE = LKSocialSns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LKSocialSns/LKSocialSns/ThirdSDK/WeChatSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.leoao.LKSocialSns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -365,11 +680,21 @@
 		};
 		7C85DDA61EFAA52E00C2FB0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE18C27126CB4B770C943B7 /* Pods-LKSocialSns.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3P75287S54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LKSocialSns/LKSocialSns/ThirdSDK/TencentSDK",
+					"$(PROJECT_DIR)/LKSocialSns/LKSocialSns/ThirdSDK/WeChatSDK",
+				);
 				INFOPLIST_FILE = LKSocialSns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LKSocialSns/LKSocialSns/ThirdSDK/WeChatSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.leoao.LKSocialSns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,6 +745,7 @@
 				7C85DDA61EFAA52E00C2FB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C85DDA71EFAA52E00C2FB0D /* Build configuration list for PBXNativeTarget "LKSocialSnsTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +754,7 @@
 				7C85DDA91EFAA52E00C2FB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

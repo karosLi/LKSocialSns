@@ -1,0 +1,7 @@
+LKSocialSns.xcodeproj/xcuserdata/
+LKSocialSns.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+LKSocialSns.xcodeproj/project.xcworkspace/xcuserdata/
