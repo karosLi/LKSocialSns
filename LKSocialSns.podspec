@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LKSocialSns"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "LKSocialSns."
 
   # This description is used to generate tags and improve search results.
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "TencentOpenAPI"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
