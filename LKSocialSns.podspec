@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LKSocialSns"
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "LKSocialSns."
 
   # This description is used to generate tags and improve search results.
@@ -124,7 +124,7 @@ Pod::Spec.new do |s|
   s.frameworks = "CoreTelephony", "CoreGraphics", "SystemConfiguration", "UIKit", "Foundation"
 
   # s.library   = "iconv"
-  s.libraries = "libstdc++", "libc++", "libsqlite3"
+  s.libraries = "stdc++", "c++", "sqlite3"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
