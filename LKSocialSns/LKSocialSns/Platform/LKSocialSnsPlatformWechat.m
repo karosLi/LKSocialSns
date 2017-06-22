@@ -9,7 +9,6 @@
 #import "LKSocialSnsPlatformWechat.h"
 #import "LKSocialSnsManager.h"
 #import "LKSocialSnsUtil.h"
-#import "WXApi.h"
 
 NSString * const kWechatScopeUserBase = @"snsapi_userinfo,snsapi_base";
 

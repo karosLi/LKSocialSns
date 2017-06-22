@@ -8,7 +8,4 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'LKSocialSns' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
 
-pod 'WechatOpenSDK'
-pod 'WeiboSDK'
-
 end

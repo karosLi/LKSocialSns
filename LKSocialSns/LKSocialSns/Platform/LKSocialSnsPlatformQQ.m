@@ -9,7 +9,6 @@
 #import "LKSocialSnsPlatformQQ.h"
 #import "LKSocialSnsConstant.h"
 #import "LKSocialSnsUtil.h"
-#import <TencentOpenAPI/TencentOAuth.h>
 #import "LKSocialSnsManager.h"
 
 static NSString *kAccessToken = @"QQAccessToken";

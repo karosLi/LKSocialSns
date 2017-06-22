@@ -10,9 +10,9 @@
 #define LKSocialSnsConstant_h
 
 #import "WXApi.h"
+#import "WeiboSDK.h"
 #import <TencentOpenAPI/QQApiInterface.h>
 #import <TencentOpenAPI/TencentOAuth.h>
-#import "WeiboSDK.h"
 #import "LKSocialSnsAccountInfo.h"
 
 /**
