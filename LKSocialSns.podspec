@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LKSocialSns"
-  s.version      = "1.0.16"
+  s.version      = "1.0.17"
   s.summary      = "LKSocialSns."
 
   # This description is used to generate tags and improve search results.
@@ -131,20 +131,20 @@ Pod::Spec.new do |s|
   #     'FRAMEWORK_SEARCH_PATHS' => '$(inherited)' '${PODS_ROOT}/Headers/Public/WechatOpenSDK' '${PODS_ROOT}/Headers/Public/WeiboSDK'
   # }
 
-  s.subspec 'WXOpenSDK' do |WXOpenSDK|
+  s.subspec 'WXOpenSDK' do |wxOpenSDK|
      # install Google Ads SDK, min of 7.6, and up to but not including 8.0    +    # Big ol' workarounds
      # NOTE: When using CocooaPods with "use_frameworks!" and a Swift app you cannot have a dependency # on a library that is not dynamic. You must install the SDK manually if using BVAdvertising.    
-      WXOpenSDK.pod_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/Headers/Public/WechatOpenSDK' }
-      WXOpenSDK.dependency = 'WechatOpenSDK'    
-      WXOpenSDK.framework = 'WXOpenSDK'     
+      wxOpenSDK.pod_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/Headers/Public/WechatOpenSDK' }
+      wxOpenSDK.dependency = 'WechatOpenSDK'    
+      wxOpenSDK.framework = 'WXOpenSDK'     
   end 
 
-  s.subspec 'WBOpenSDK' do |WBOpenSDK|
+  s.subspec 'WBOpenSDK' do |wbOpenSDK|
      # install Google Ads SDK, min of 7.6, and up to but not including 8.0    +    # Big ol' workarounds
      # NOTE: When using CocooaPods with "use_frameworks!" and a Swift app you cannot have a dependency # on a library that is not dynamic. You must install the SDK manually if using BVAdvertising.    
-      WBOpenSDK.pod_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/Headers/Public/WeiboSDK' }
-      WBOpenSDK.dependencys = 'WeiboSDK'     
-      WBOpenSDK.frameworks = 'WBOpenSDK'      
+      wbOpenSDK.pod_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/Headers/Public/WeiboSDK' }
+      wbOpenSDK.dependencys = 'WeiboSDK'     
+      wbOpenSDK.frameworks = 'WBOpenSDK'      
   end 
 
 
