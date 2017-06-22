@@ -675,7 +675,10 @@
 				);
 				INFOPLIST_FILE = LKSocialSns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LKSocialSns/LKSocialSns/ThirdSDK/WXOpenSDK1.7.8",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.leoao.LKSocialSns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -700,7 +703,10 @@
 				);
 				INFOPLIST_FILE = LKSocialSns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LKSocialSns/LKSocialSns/ThirdSDK/WXOpenSDK1.7.8",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.leoao.LKSocialSns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
