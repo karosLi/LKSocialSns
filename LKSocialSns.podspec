@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LKSocialSns"
-  s.version      = "1.0.14"
+  s.version      = "1.0.15"
   s.summary      = "LKSocialSns."
 
   # This description is used to generate tags and improve search results.
@@ -127,9 +127,17 @@ Pod::Spec.new do |s|
   s.libraries = "stdc++", "c++", "sqlite3"
 
   # add the static framework to the framework search path so that you can actually use it
-  s.pod_target_xcconfig = {
-      'FRAMEWORK_SEARCH_PATHS' => '$(inherited)' '${PODS_ROOT}/Headers/Public/WechatOpenSDK' '${PODS_ROOT}/Headers/Public/WeiboSDK'
-  }
+  # s.pod_target_xcconfig = {
+  #     'FRAMEWORK_SEARCH_PATHS' => '$(inherited)' '${PODS_ROOT}/Headers/Public/WechatOpenSDK' '${PODS_ROOT}/Headers/Public/WeiboSDK'
+  # }
+
+  s.subspec 'ThirdSDK' do |thirdSDK|
+     # install Google Ads SDK, min of 7.6, and up to but not including 8.0    +    # Big ol' workarounds
+     # NOTE: When using CocooaPods with "use_frameworks!" and a Swift app you cannot have a dependency # on a library that is not dynamic. You must install the SDK manually if using BVAdvertising.    
+      thirdSDK.pod_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/Headers/Public/WechatOpenSDK' '${PODS_ROOT}/Headers/Public/WeiboSDK' }
+      thirdSDK.dependencys = 'WechatOpenSDK', 'WeiboSDK'     
+      thirdSDK.frameworks = 'WXOpenSDK', 'WBOpenSDK'      
+  end 
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
