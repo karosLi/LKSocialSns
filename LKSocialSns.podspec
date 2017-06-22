@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LKSocialSns"
-  s.version      = "1.0.17"
+  s.version      = "1.0.18"
   s.summary      = "LKSocialSns."
 
   # This description is used to generate tags and improve search results.
@@ -143,8 +143,8 @@ Pod::Spec.new do |s|
      # install Google Ads SDK, min of 7.6, and up to but not including 8.0    +    # Big ol' workarounds
      # NOTE: When using CocooaPods with "use_frameworks!" and a Swift app you cannot have a dependency # on a library that is not dynamic. You must install the SDK manually if using BVAdvertising.    
       wbOpenSDK.pod_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/Headers/Public/WeiboSDK' }
-      wbOpenSDK.dependencys = 'WeiboSDK'     
-      wbOpenSDK.frameworks = 'WBOpenSDK'      
+      wbOpenSDK.dependency = 'WeiboSDK'     
+      wbOpenSDK.framework = 'WBOpenSDK'      
   end 
 
 
