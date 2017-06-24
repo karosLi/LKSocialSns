@@ -28,15 +28,8 @@
 		7C85DDE41EFAA75000C2FB0D /* LKSocialSnsPlatformQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDC61EFAA75000C2FB0D /* LKSocialSnsPlatformQQ.m */; };
 		7C85DDE51EFAA75000C2FB0D /* LKSocialSnsPlatformWechat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDC81EFAA75000C2FB0D /* LKSocialSnsPlatformWechat.m */; };
 		7C85DDE61EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDCA1EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.m */; };
-		7C85DDE71EFAA75000C2FB0D /* LK_qq_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDCD1EFAA75000C2FB0D /* LK_qq_icon@3x.png */; };
-		7C85DDE81EFAA75000C2FB0D /* LK_qzone_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDCE1EFAA75000C2FB0D /* LK_qzone_icon@3x.png */; };
-		7C85DDE91EFAA75000C2FB0D /* LK_sina_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDCF1EFAA75000C2FB0D /* LK_sina_icon@3x.png */; };
-		7C85DDEA1EFAA75000C2FB0D /* LK_wechat_session_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDD01EFAA75000C2FB0D /* LK_wechat_session_icon@3x.png */; };
-		7C85DDEB1EFAA75000C2FB0D /* LK_wechat_timeline_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDD11EFAA75000C2FB0D /* LK_wechat_timeline_icon@3x.png */; };
 		7C85DDEC1EFAA75000C2FB0D /* LKShareMenuCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDD31EFAA75000C2FB0D /* LKShareMenuCollectionCell.m */; };
-		7C85DDED1EFAA75000C2FB0D /* LKShareMenuCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDD41EFAA75000C2FB0D /* LKShareMenuCollectionCell.xib */; };
 		7C85DDEE1EFAA75000C2FB0D /* LKShareMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85DDD61EFAA75000C2FB0D /* LKShareMenuView.m */; };
-		7C85DDEF1EFAA75000C2FB0D /* LKShareMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C85DDD71EFAA75000C2FB0D /* LKShareMenuView.xib */; };
 		7C85DE031EFACE4800C2FB0D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE021EFACE4800C2FB0D /* libc++.tbd */; };
 		7C85DE051EFACE5B00C2FB0D /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE041EFACE5B00C2FB0D /* libstdc++.tbd */; };
 		7C85DE071EFACF9F00C2FB0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C85DE061EFACF9F00C2FB0D /* Foundation.framework */; };
@@ -50,6 +43,7 @@
 		7CA8B72F1EFBC8B80019CBDD /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7CA8B7251EFBC8B80019CBDD /* README.txt */; };
 		7CA8B7301EFBC8B80019CBDD /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA8B72A1EFBC8B80019CBDD /* TencentOpenAPI.framework */; };
 		7CA8B7311EFBC8B80019CBDD /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CA8B72B1EFBC8B80019CBDD /* TencentOpenApi_IOS_Bundle.bundle */; };
+		7CA8B8E71EFE90670019CBDD /* LKShareMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CA8B8E61EFE90670019CBDD /* LKShareMenu.bundle */; };
 		D3A2EAC6C56AFC82BE041052 /* libPods-LKSocialSns.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC8049C87E948212AFD35D0 /* libPods-LKSocialSns.a */; };
 /* End PBXBuildFile section */
 
@@ -121,17 +115,10 @@
 		7C85DDC81EFAA75000C2FB0D /* LKSocialSnsPlatformWechat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsPlatformWechat.m; sourceTree = "<group>"; };
 		7C85DDC91EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSocialSnsPlatformWeibo.h; sourceTree = "<group>"; };
 		7C85DDCA1EFAA75000C2FB0D /* LKSocialSnsPlatformWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSocialSnsPlatformWeibo.m; sourceTree = "<group>"; };
-		7C85DDCD1EFAA75000C2FB0D /* LK_qq_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LK_qq_icon@3x.png"; sourceTree = "<group>"; };
-		7C85DDCE1EFAA75000C2FB0D /* LK_qzone_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LK_qzone_icon@3x.png"; sourceTree = "<group>"; };
-		7C85DDCF1EFAA75000C2FB0D /* LK_sina_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LK_sina_icon@3x.png"; sourceTree = "<group>"; };
-		7C85DDD01EFAA75000C2FB0D /* LK_wechat_session_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LK_wechat_session_icon@3x.png"; sourceTree = "<group>"; };
-		7C85DDD11EFAA75000C2FB0D /* LK_wechat_timeline_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LK_wechat_timeline_icon@3x.png"; sourceTree = "<group>"; };
 		7C85DDD21EFAA75000C2FB0D /* LKShareMenuCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKShareMenuCollectionCell.h; sourceTree = "<group>"; };
 		7C85DDD31EFAA75000C2FB0D /* LKShareMenuCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKShareMenuCollectionCell.m; sourceTree = "<group>"; };
-		7C85DDD41EFAA75000C2FB0D /* LKShareMenuCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKShareMenuCollectionCell.xib; sourceTree = "<group>"; };
 		7C85DDD51EFAA75000C2FB0D /* LKShareMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKShareMenuView.h; sourceTree = "<group>"; };
 		7C85DDD61EFAA75000C2FB0D /* LKShareMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKShareMenuView.m; sourceTree = "<group>"; };
-		7C85DDD71EFAA75000C2FB0D /* LKShareMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKShareMenuView.xib; sourceTree = "<group>"; };
 		7C85DE021EFACE4800C2FB0D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		7C85DE041EFACE5B00C2FB0D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		7C85DE061EFACF9F00C2FB0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -153,6 +140,7 @@
 		7CA8B7281EFBC8B80019CBDD /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		7CA8B72A1EFBC8B80019CBDD /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		7CA8B72B1EFBC8B80019CBDD /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		7CA8B8E61EFE90670019CBDD /* LKShareMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LKShareMenu.bundle; sourceTree = "<group>"; };
 		FCC8049C87E948212AFD35D0 /* libPods-LKSocialSns.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKSocialSns.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -320,27 +308,13 @@
 		7C85DDCB1EFAA75000C2FB0D /* ShareMenu */ = {
 			isa = PBXGroup;
 			children = (
-				7C85DDCC1EFAA75000C2FB0D /* image */,
 				7C85DDD21EFAA75000C2FB0D /* LKShareMenuCollectionCell.h */,
 				7C85DDD31EFAA75000C2FB0D /* LKShareMenuCollectionCell.m */,
-				7C85DDD41EFAA75000C2FB0D /* LKShareMenuCollectionCell.xib */,
 				7C85DDD51EFAA75000C2FB0D /* LKShareMenuView.h */,
 				7C85DDD61EFAA75000C2FB0D /* LKShareMenuView.m */,
-				7C85DDD71EFAA75000C2FB0D /* LKShareMenuView.xib */,
+				7CA8B8E61EFE90670019CBDD /* LKShareMenu.bundle */,
 			);
 			path = ShareMenu;
-			sourceTree = "<group>";
-		};
-		7C85DDCC1EFAA75000C2FB0D /* image */ = {
-			isa = PBXGroup;
-			children = (
-				7C85DDCD1EFAA75000C2FB0D /* LK_qq_icon@3x.png */,
-				7C85DDCE1EFAA75000C2FB0D /* LK_qzone_icon@3x.png */,
-				7C85DDCF1EFAA75000C2FB0D /* LK_sina_icon@3x.png */,
-				7C85DDD01EFAA75000C2FB0D /* LK_wechat_session_icon@3x.png */,
-				7C85DDD11EFAA75000C2FB0D /* LK_wechat_timeline_icon@3x.png */,
-			);
-			path = image;
 			sourceTree = "<group>";
 		};
 		7C85DDD81EFAA75000C2FB0D /* ThirdSDK */ = {
@@ -484,19 +458,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C85DDEA1EFAA75000C2FB0D /* LK_wechat_session_icon@3x.png in Resources */,
 				7C85DD951EFAA52D00C2FB0D /* LaunchScreen.storyboard in Resources */,
-				7C85DDED1EFAA75000C2FB0D /* LKShareMenuCollectionCell.xib in Resources */,
 				7C85DD921EFAA52D00C2FB0D /* Assets.xcassets in Resources */,
 				7C85DD901EFAA52D00C2FB0D /* Main.storyboard in Resources */,
-				7C85DDEB1EFAA75000C2FB0D /* LK_wechat_timeline_icon@3x.png in Resources */,
-				7C85DDEF1EFAA75000C2FB0D /* LKShareMenuView.xib in Resources */,
-				7C85DDE71EFAA75000C2FB0D /* LK_qq_icon@3x.png in Resources */,
+				7CA8B8E71EFE90670019CBDD /* LKShareMenu.bundle in Resources */,
 				7CA8B7311EFBC8B80019CBDD /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				7CA8B72D1EFBC8B80019CBDD /* WeiboSDK.bundle in Resources */,
-				7C85DDE91EFAA75000C2FB0D /* LK_sina_icon@3x.png in Resources */,
 				7CA8B72F1EFBC8B80019CBDD /* README.txt in Resources */,
-				7C85DDE81EFAA75000C2FB0D /* LK_qzone_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

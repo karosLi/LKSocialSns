@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LKSocialSns"
-  s.version      = "1.0.27"
+  s.version      = "1.0.28"
   s.summary      = "LKSocialSns."
 
   # This description is used to generate tags and improve search results.
@@ -109,9 +109,9 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
   # s.resources = ["LKSocialSns/LKSocialSns/ShareMenu/**/*.png", "LKSocialSns/LKSocialSns/ShareMenu/**/*.jpg", "LKSocialSns/LKSocialSns/ShareMenu/**/*.xib"]
 
-  s.resource_bundles = {
-    'LKSocialSns' => ["LKSocialSns/LKSocialSns/ShareMenu/**/*.png", "LKSocialSns/LKSocialSns/ShareMenu/**/*.jpg", "LKSocialSns/LKSocialSns/ShareMenu/**/*.xib"]
-  }
+  # s.resource_bundles = {
+    # 'LKSocialSns' => ["LKSocialSns/LKSocialSns/ShareMenu/**/*.png", "LKSocialSns/LKSocialSns/ShareMenu/**/*.jpg", "LKSocialSns/LKSocialSns/ShareMenu/**/*.xib"]
+  # }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

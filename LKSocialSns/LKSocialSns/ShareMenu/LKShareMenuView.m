@@ -38,7 +38,9 @@ static NSString *LKShareMenuCollectionCellIdentifier = @"LKShareMenuCollectionCe
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self = [[[NSBundle bundleForClass:[self class]] loadNibNamed:NSStringFromClass(self.class) owner:nil options:nil] lastObject];
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        bundle = [NSBundle bundleWithURL:[bundle URLForResource:NSStringFromClass([self class]) withExtension:@"bundle"]];
+        self = [[bundle loadNibNamed:NSStringFromClass([self class]) owner:nil options:nil] lastObject];
         self.frame = frame;
         
         _columnCount = 3;
@@ -52,7 +54,7 @@ static NSString *LKShareMenuCollectionCellIdentifier = @"LKShareMenuCollectionCe
         
         self.flowLayout = [[UICollectionViewFlowLayout alloc] init];
         self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width, 0) collectionViewLayout:self.flowLayout];
-        [self.collectionView registerNib:[UINib nibWithNibName:LKShareMenuCollectionCellIdentifier bundle:nil] forCellWithReuseIdentifier:LKShareMenuCollectionCellIdentifier];
+        [self.collectionView registerNib:[UINib nibWithNibName:LKShareMenuCollectionCellIdentifier bundle:bundle] forCellWithReuseIdentifier:LKShareMenuCollectionCellIdentifier];
         self.collectionView.delegate = self;
         self.collectionView.dataSource = self;
         self.collectionView.backgroundColor = [UIColor whiteColor];
@@ -112,22 +114,25 @@ static NSString *LKShareMenuCollectionCellIdentifier = @"LKShareMenuCollectionCe
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    bundle = [NSBundle bundleWithURL:[bundle URLForResource:NSStringFromClass([self class]) withExtension:@"bundle"]];
+    
     LKShareMenuCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:LKShareMenuCollectionCellIdentifier forIndexPath:indexPath];
     NSString *snsPlatform = self.datasoure[indexPath.row];
     if ([snsPlatform isEqualToString:LKShareToWechatSession]) {
-        cell.icon.image = [UIImage imageNamed:@"LK_wechat_session_icon"];
+        cell.icon.image = [UIImage imageNamed:@"LK_wechat_session_icon" inBundle:bundle compatibleWithTraitCollection:nil];
         cell.text.text = @"微信好友";
     } else if ([snsPlatform isEqualToString:LKShareToWechatTimeline]) {
-        cell.icon.image = [UIImage imageNamed:@"LK_wechat_timeline_icon"];
+        cell.icon.image = [UIImage imageNamed:@"LK_wechat_timeline_icon" inBundle:bundle compatibleWithTraitCollection:nil];
         cell.text.text = @"微信朋友圈";
     } else if ([snsPlatform isEqualToString:LKShareToQQ]) {
-        cell.icon.image = [UIImage imageNamed:@"LK_qq_icon"];
+        cell.icon.image = [UIImage imageNamed:@"LK_qq_icon" inBundle:bundle compatibleWithTraitCollection:nil];
         cell.text.text = @"QQ";
     } else if ([snsPlatform isEqualToString:LKShareToQzone]) {
-        cell.icon.image = [UIImage imageNamed:@"LK_qzone_icon"];
+        cell.icon.image = [UIImage imageNamed:@"LK_qzone_icon" inBundle:bundle compatibleWithTraitCollection:nil];
         cell.text.text = @"QQ空间";
     } else if ([snsPlatform isEqualToString:LKShareToWeibo]) {
-        cell.icon.image = [UIImage imageNamed:@"LK_sina_icon"];
+        cell.icon.image = [UIImage imageNamed:@"LK_sina_icon" inBundle:bundle compatibleWithTraitCollection:nil];
         cell.text.text = @"新浪微博";
     }
 
