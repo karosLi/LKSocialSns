@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LKSocialSns"
-  s.version      = "1.0.30"
+  s.version      = "1.0.31"
   s.summary      = "LKSocialSns."
 
   # This description is used to generate tags and improve search results.
