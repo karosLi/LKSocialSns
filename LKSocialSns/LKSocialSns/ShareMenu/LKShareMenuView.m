@@ -38,7 +38,7 @@ static NSString *LKShareMenuCollectionCellIdentifier = @"LKShareMenuCollectionCe
 
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self = [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self.class) owner:nil options:nil] lastObject];
+        self = [[[NSBundle bundleForClass:[self class]] loadNibNamed:NSStringFromClass(self.class) owner:nil options:nil] lastObject];
         self.frame = frame;
         
         _columnCount = 3;
