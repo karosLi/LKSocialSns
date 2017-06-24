@@ -39,7 +39,7 @@ static NSString *LKShareMenuCollectionCellIdentifier = @"LKShareMenuCollectionCe
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-        bundle = [NSBundle bundleWithURL:[bundle URLForResource:NSStringFromClass([self class]) withExtension:@"bundle"]];
+        bundle = [NSBundle bundleWithURL:[bundle URLForResource:@"LKShareMenu" withExtension:@"bundle"]];
         self = [[bundle loadNibNamed:NSStringFromClass([self class]) owner:nil options:nil] lastObject];
         self.frame = frame;
         
@@ -115,7 +115,7 @@ static NSString *LKShareMenuCollectionCellIdentifier = @"LKShareMenuCollectionCe
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    bundle = [NSBundle bundleWithURL:[bundle URLForResource:NSStringFromClass([self class]) withExtension:@"bundle"]];
+    bundle = [NSBundle bundleWithURL:[bundle URLForResource:@"LKShareMenu" withExtension:@"bundle"]];
     
     LKShareMenuCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:LKShareMenuCollectionCellIdentifier forIndexPath:indexPath];
     NSString *snsPlatform = self.datasoure[indexPath.row];
