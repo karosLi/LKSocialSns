@@ -9,10 +9,18 @@
 #ifndef LKSocialSnsConstant_h
 #define LKSocialSnsConstant_h
 
-#import "WXApi.h"
-#import "WeiboSDK.h"
+#elif __has_include(<TencentOpenAPI/QQApiInterface.h>)
 #import <TencentOpenAPI/QQApiInterface.h>
 #import <TencentOpenAPI/TencentOAuth.h>
+
+#else
+#import "QQApiInterface.h"
+#import "TencentOpenAPI/TencentOAuth.h"
+#endif
+
+
+#import "WXApi.h"
+#import "WeiboSDK.h"
 #import "LKSocialSnsAccountInfo.h"
 
 /**

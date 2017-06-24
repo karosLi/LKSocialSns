@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LKSocialSns"
-  s.version      = "1.0.20"
+  s.version      = "1.0.21"
   s.summary      = "LKSocialSns."
 
   # This description is used to generate tags and improve search results.
@@ -128,9 +128,10 @@ Pod::Spec.new do |s|
   s.libraries = "stdc++", "c++", "sqlite3", "z"
 
   # add the static framework to the framework search path so that you can actually use it
-  # s.pod_target_xcconfig = {
-  #     'FRAMEWORK_SEARCH_PATHS' => '$(inherited)' '${PODS_ROOT}/Headers/Public/WechatOpenSDK' '${PODS_ROOT}/Headers/Public/WeiboSDK'
-  # }
+  s.pod_target_xcconfig = {
+      # 'FRAMEWORK_SEARCH_PATHS' => '$(inherited)' '${PODS_ROOT}/Headers/Public/WechatOpenSDK' '${PODS_ROOT}/Headers/Public/WeiboSDK'
+      'OTHER_LDFLAGS' : '-all_load'
+  }
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
