@@ -39,7 +39,7 @@ static TencentOAuth *TencentAuth;
     NSArray *permissions = [NSArray arrayWithObjects:
                             kOPEN_PERMISSION_ADD_SHARE,
                             nil];
-
+    
     [self restoreToken];
     if (self.accessToken && self.openId && self.expirationDate) {
         [TencentAuth setAccessToken:self.accessToken];
@@ -66,14 +66,14 @@ static TencentOAuth *TencentAuth;
         return;
     }
     
-    NSData *imageData = UIImagePNGRepresentation(shareImage);
+    NSData *imageData = [LKSocialSnsUtil compressImage:shareImage toImageSize:CGSizeMake(300, 300) byteSize:32];
     
     SendMessageToQQReq *req;
     if (targetLink) {
         QQApiNewsObject *img = [QQApiNewsObject objectWithURL:[NSURL URLWithString:targetLink] title:title.stringByRemovingPercentEncoding description:description.stringByRemovingPercentEncoding previewImageData:imageData];
         req = [SendMessageToQQReq reqWithContent:img];
     } else {
-        QQApiImageObject *img = [QQApiImageObject objectWithData:imageData previewImageData:imageData title:title.stringByRemovingPercentEncoding description:description.stringByRemovingPercentEncoding];
+        QQApiImageObject *img = [QQApiImageObject objectWithData:UIImageJPEGRepresentation(shareImage, 0.9) previewImageData:imageData title:title.stringByRemovingPercentEncoding description:description.stringByRemovingPercentEncoding];
         req = [SendMessageToQQReq reqWithContent:img];
     }
     
@@ -121,7 +121,7 @@ static TencentOAuth *TencentAuth;
  <TR><TD>-3</TD><TD>upload photo failed</TD><TD>上传图片失败</TD></TR>
  <TR><TD>-4</TD><TD>user give up the current operation</TD><TD>用户放弃当前操作</TD></TR>
  <TR><TD>-5</TD><TD>client internal error</TD><TD>客户端内部处理错误</TD></TR>
-
+ 
  @param errCode errCode
  @return errMsg
  */

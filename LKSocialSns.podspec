@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LKSocialSns"
-  s.version      = "1.0.33"
+  s.version      = "1.0.0"
   s.summary      = "LKSocialSns."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     this is LKSocialSns
                    DESC
 
-  s.homepage     = "http://121.40.92.116:3000/Lefit_iOS_Organization/LKSocialSns.git"
+  s.homepage     = "https://github.com/karosLi/LKSocialSns.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,9 +53,8 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Karos" => "likai@leoao.com" }
+  s.author             = { "Karos" => "karosli@github.com" }
   # Or just: s.author    = "Karos
-  # s.authors            = { "Karos" => "likai@leoao.com" }
   # s.social_media_url   = ""
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://121.40.92.116:3000/Lefit_iOS_Organization/LKSocialSns.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/karosLi/LKSocialSns", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -146,10 +145,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "LKNetworking"
-  # s.dependency "LKAPIManagers"
-  # s.dependency "LKMediator"
-  #s.dependency "WechatOpenSDK"
-  #s.dependency "WeiboSDK"
 
 end

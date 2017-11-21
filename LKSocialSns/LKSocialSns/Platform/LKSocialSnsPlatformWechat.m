@@ -61,7 +61,7 @@ static NSString *AppSecret;
         mediaObject = ext;
     } else {
         WXImageObject *ext = [WXImageObject object];
-        ext.imageData = imageData;
+        ext.imageData = UIImageJPEGRepresentation(shareImage, 0.9);
         mediaObject = ext;
     }
     

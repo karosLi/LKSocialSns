@@ -24,7 +24,7 @@ static NSString *RedirectURI;
 + (void)registerApp:(NSString *)appkey redictURI:(NSString *)redirectURI {
     AppKey = appkey;
     RedirectURI = redirectURI ? redirectURI : @"https://api.weibo.com/oauth2/default.html";
-//    [WeiboSDK enableDebugMode:YES];
+    //    [WeiboSDK enableDebugMode:YES];
     [WeiboSDK registerApp:appkey];
 }
 
@@ -56,7 +56,7 @@ static NSString *RedirectURI;
     NSString *decodedDescription = description.stringByRemovingPercentEncoding;
     NSData *descriptionData = [decodedDescription dataUsingEncoding:NSUnicodeStringEncoding];
     NSData *linkData = [targetLink dataUsingEncoding:NSUnicodeStringEncoding];
-
+    
     if (descriptionData.length + linkData.length > 280) {
         NSInteger toIndex = MAX((280 - linkData.length) / 2, 0);
         if (toIndex < description.length) {
@@ -65,7 +65,8 @@ static NSString *RedirectURI;
         }
     }
     message.text = [NSString stringWithFormat:@"%@%@", decodedDescription, targetLink];
-    NSData *imageData = UIImagePNGRepresentation(shareImage);
+    
+    NSData *imageData = UIImageJPEGRepresentation(shareImage, 0.9);
     
     if (targetLink) {
         WBWebpageObject *webpage = [WBWebpageObject object];
@@ -80,7 +81,7 @@ static NSString *RedirectURI;
         image.imageData = imageData;
         message.imageObject = image;
     }
-
+    
     WBSendMessageToWeiboRequest *request = [WBSendMessageToWeiboRequest requestWithMessage:message authInfo:authRequest access_token:nil];
     [WeiboSDK sendRequest:request];
 }

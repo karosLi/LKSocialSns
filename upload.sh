@@ -39,4 +39,4 @@ if [[ ${checkInMessage} = "" ]]; then
 		exit
 	fi
 
-./uploadRepo.sh -r PrivatePods -f LKSocialSns.podspec -m ${checkInMessage}
+./uploadRepo.sh -r master -f LKSocialSns.podspec -m ${checkInMessage}
